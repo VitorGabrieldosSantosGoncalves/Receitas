@@ -1,0 +1,159 @@
+.rodape {
+    background-color: #8C9CED;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.titulo-rodape {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-family: Economica;
+    font-size: 1.75em;
+}
+
+.imagem-monica,
+.imagem-vitor {
+    border-radius: 100%;
+    width: 70%;
+    margin-left: 15%;
+    max-width: 400px;
+    border: black solid 1px;
+}
+
+.secao-saiba-mais {
+    position: relative;
+    margin-top: -40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 100px;
+}
+
+.sumiu {
+    animation: sumiu 2s ease-in-out reverse forwards, sumiu-voltando 2s ease-in-out normal 8s;
+}
+
+@keyframes sumiu {
+    0% {
+        filter: brightness(10%);
+    }
+}
+
+@keyframes sumiu-voltando {
+    0% {
+        filter: brightness(50%);
+    }
+    50% {
+        filter: brightness(90%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
+}
+
+.titulo-saiba-mais {
+    display: none;
+    margin-left: 10%;
+    font-size: 1.5em;
+    font-family: Economica;
+    margin-top: -200px;
+    color: white;
+    transform: translateX(90px);
+    opacity: 0%;
+    animation: tituloMovimento 5s ease-in-out forwards, tituloMovimentoVolta 5s ease-in-out 6s normal;
+    /* animation-fill-mode: ; */
+}
+
+@keyframes tituloMovimento {
+    to {
+        transform: translateX(10px);
+        opacity: 100%;
+    }
+}
+
+@keyframes tituloMovimentoVolta {
+    from {
+        transform: translateX(9px);
+        opacity: 100%;
+    }
+    to {
+        transform: translateX(-100px);
+    }
+    25% {
+        opacity: 35%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+.icone-facebook,
+.icone-instagram {
+    display: none;
+    width: 30%;
+    max-width: 80px;
+    margin-top: 80px;
+    margin-left: 15%;
+    transform: translateX(30px);
+    opacity: 0%;
+    animation: iconeMovimentoIndo 5s ease-in-out forwards, iconeMovimentoVolta 5s ease-in-out 6s normal;
+}
+
+.icone-facebook {
+    margin-top: 90px;
+    width: 35%;
+}
+
+@keyframes iconeMovimentoIndo {
+    to {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+
+@keyframes iconeMovimentoVolta {
+    from {
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+    to {
+        transform: translateX(-100px);
+    }
+    25% {
+        opacity: 35%;
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+.texto-monica,
+.texto-vitor,
+.copyright {
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 16%;
+    font-family: Economica;
+}
+
+.arrumaTexto {
+    margin-top: 38.5%;
+}
+
+.descricao-monica,
+.descricao-vitor {
+    text-align: center;
+    margin-top: -2px;
+}
+
+.copyright {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}

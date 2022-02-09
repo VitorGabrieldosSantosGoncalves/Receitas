@@ -1,0 +1,146 @@
+@media screen and (min-device-width: 374px) {
+    .arrumaTexto {
+        margin-top: 34%;
+    }
+    .titulo-saiba-mais {
+        margin-top: -220px;
+    }
+}
+
+@media screen and (min-device-width: 424px) {
+    .texto-monica,
+    .texto-vitor {
+        padding-top: 30px;
+    }
+    .titulo-saiba-mais {
+        margin-top: -250px;
+        font-size: 2.1em;
+    }
+    @keyframes tituloMovimento {
+        to {
+            transform: translateX(70px);
+            opacity: 100%;
+        }
+    }
+    @keyframes tituloMovimentoVolta {
+        from {
+            transform: translateX(69px);
+            opacity: 100%;
+        }
+        to {
+            transform: translateX(-100px);
+        }
+        25% {
+            opacity: 35%;
+        }
+        50% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 0%;
+        }
+    }
+    .arrumaTexto {
+        margin-top: 34.6%;
+    }
+}
+
+@media screen and (min-device-width: 768px) {
+    .imagem-monica,
+    .imagem-vitor {
+        margin-left: 25%;
+    }
+    .texto-monica,
+    .texto-vitor {
+        padding-top: 100px;
+    }
+    .titulo-saiba-mais {
+        font-size: 2.5em;
+    }
+    .arrumaTexto {
+        margin-top: 16%;
+    }
+}
+
+@media screen and (min-device-width: 1023px) {
+    .secao-rodape {
+        display: flex;
+    }
+    .vitor {
+        margin-left: 29%;
+    }
+    .imagem-vitor,
+    .imagem-monica {
+        width: 280px;
+    }
+    .texto-monica,
+    .descricao-monica,
+    .texto-vitor,
+    .descricao-vitor {
+        padding-left: 90px;
+    }
+    .texto-monica,
+    .texto-vitor {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .texto-monica {
+        transform: translateY(37px);
+    }
+    .texto-vitor {
+        transform: translateY(50px)
+    }
+    .descricao-monica {
+        margin-top: 53px;
+    }
+    .descricao-vitor {
+        margin-top: 62px;
+    }
+    .arrumaTexto {
+        margin-top: 32.4%;
+    }
+    .arrumaMonica {
+        margin-top: 43%;
+    }
+    .secao-saiba-mais {
+        width: 300px;
+    }
+    .titulo-saiba-mais {
+        font-size: 1.75em;
+    }
+    .icone-facebook,
+    .icone-instagram {
+        width: 70px;
+        height: 60px;
+    }
+    @keyframes tituloMovimento {
+        to {
+            transform: translateX(40px);
+            opacity: 100%;
+        }
+    }
+    @keyframes tituloMovimentoVolta {
+        from {
+            transform: translateX(39px);
+            opacity: 100%;
+        }
+        to {
+            transform: translateX(-100px);
+        }
+        25% {
+            opacity: 35%;
+        }
+        50% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 0%;
+        }
+    }
+}
+
+@media screen and (min-device-width: 1100px) {
+    .secao-rodape {
+        margin-left: 10%;
+    }
+}

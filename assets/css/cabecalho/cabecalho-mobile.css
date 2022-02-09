@@ -1,0 +1,40 @@
+@media screen and (max-device-width: 768px) {
+    .navegacao {
+        display: none;
+        margin-top: 40px;
+    }
+    .lista-navegacao {
+        background-color: #7185E9;
+        height: 220px;
+        position: relative;
+    }
+    .item-navegacao {
+        border-bottom: rgba(0, 0, 0, 0.61) solid 1px;
+        padding-top: 1em;
+        padding-left: 10px;
+    }
+    .link-navegacao {
+        text-decoration: none;
+        color: black;
+        font-family: Belleza;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .botao-menu {
+        display: block;
+        margin-left: 74%;
+        margin-top: -70px;
+    }
+    .botao-menu-mini {
+        display: none;
+        position: relative;
+        margin-left: 74%;
+        margin-top: -70px;
+    }
+    .botao-menu-after {
+        display: none;
+        position: relative;
+        margin-left: 74%;
+        margin-top: -70px;
+    }
+}

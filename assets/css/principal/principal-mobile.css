@@ -1,0 +1,111 @@
+/*Parte Titulos*/
+
+.secao-titulos {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.titulo-1,
+.titulo-2,
+.titulo-3 {
+    text-align: center;
+}
+
+.titulo-1:hover,
+.titulo-2:hover,
+.titulo-3:hover {
+    text-decoration: underline;
+    opacity: 85%;
+    font-style: italic;
+}
+
+.titulo-1,
+.titulo-3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 13.4px;
+}
+
+.titulo-2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 30px;
+}
+
+
+/*Parte Imagem*/
+
+.imagem-lasanha {
+    background-image: url(../../img/Bolo.png);
+    background-size: contain;
+    margin-left: 13vw;
+    width: 75%;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+.borda-titulo {
+    display: none;
+}
+
+
+/*Parte Ingredientes*/
+
+.secao-ingredientes,
+.secao-preparo {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.titulo-ingredientes,
+.titulo-preparo {
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+
+.sub-titulo-molho,
+.sub-titulo-carne,
+.sub-titulo-montagem {
+    font-family: 'Bebas Neue';
+}
+
+.lista-ingredientes,
+.artigo-molho,
+.artigo-carne,
+.artigo-montagem {
+    margin-left: 13vw;
+}
+
+.ingredientes,
+.item-molho,
+.item-carne,
+.item-montagem {
+    font-size: 14.3px;
+    font-family: 'Economica';
+}
+
+
+/* .lista-ingredientes {
+    margin-left: -1px;
+    margin-left: 25%;
+} */
+
+.item-molho,
+.item-carne,
+.item-montagem {
+    width: 80%;
+}
+
+
+/* Montagem */
+
+.item-molho:hover,
+.item-carne:hover,
+.item-montagem:hover,
+.ingredientes:hover {
+    text-decoration: underline rgb(70, 130, 180);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.secao-preparo {
+    width: 80%;
+}
